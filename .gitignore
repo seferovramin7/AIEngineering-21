@@ -1,0 +1,8 @@
+echo ".venv/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.png" >> .gitignore   # kalau gambar gak mau di-track
+echo "*.ipynb_checkpoints" >> .gitignore
+.venv/
+__pycache__/
+*.png
+*.ipynb_checkpoints
